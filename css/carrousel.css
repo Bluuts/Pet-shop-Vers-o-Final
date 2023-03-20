@@ -1,0 +1,134 @@
+/* Carousel + cards */
+
+/* Carousel */
+.h1_recomendados{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 50px;
+    font-size: 30px;
+    font-family: 'Inter', 'sans-serif';
+    color: #042464;
+  }
+  
+  @media (max-width: 720px) {
+    .h1_recomendados{ font-size: 25px; }
+  }
+  
+  @media (max-width: 320px) { /* responsivo celular */
+    .h1_recomendados{ font-size: 20px; }
+  }
+  
+  .gallery_card {
+    background: #5b634a;
+    padding-top: 30px;
+  }
+  
+  
+  
+  .gallery-cell_cards{ /* adicionando borda */
+    border-radius: 10px;
+  }
+  
+  .gallery-cell_cards a img{ /* adicionando borda */
+    border-radius: 10px;
+  }
+  
+  .gallery-cell_cards{
+    width: 66%;
+    height: 400px;
+    margin-right: -450px;
+  
+    counter-increment: gallery-cell;
+  }
+  
+  .gallery-cell_cards{
+    width: 66%;
+    height: 400px;
+    margin-right: -450px;
+    
+    counter-increment: gallery-cell;
+  }
+  
+  .gallery-cell_cards{
+    width: 66%;
+    height: 400px;
+    margin-right: -450px;
+    
+    counter-increment: gallery-cell;
+  }
+  
+  .gallery-cell_cards{
+    width: 66%;
+    height: 400px;
+    margin-right: -450px;
+    
+    counter-increment: gallery-cell;
+  }
+  
+  .gallery-cell_cards{
+    width: 66%;
+    height: 400px;
+    margin-right: -450px;
+    
+    counter-increment: gallery-cell;
+  }
+  
+  /* cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Inter', 'sans-serif';
+    background-color: #fff;
+  }
+  
+  
+  
+  
+  
+  .card h1{
+    padding-top: 10px;
+    height: 80px;
+    
+  }
+  
+  .card h1{
+    font-size: 15px;
+  }
+  
+  
+  .prince-2{
+    color: grey;
+    font-size: 15px;
+    text-decoration:line-through;
+    padding-bottom: 10px;
+  }
+  
+  
+  .price {
+    font-weight: bold;
+    color: #0e84c5;
+    font-size: 22px;
+    padding-bottom: 10px;
+  }
+  
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #087b3c;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  
+  
+  .card button:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }

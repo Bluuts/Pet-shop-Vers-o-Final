@@ -1,0 +1,48 @@
+.carousel-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.album {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.carousel-item {
+  margin-right: 10px;
+  text-align: center;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-item h3 {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.carousel-item p {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #888;
+}
+
+.carousel-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.carousel-button-prev {
+  float: left;
+}
+
+.carousel-button-next {
+  float: right;
+}
